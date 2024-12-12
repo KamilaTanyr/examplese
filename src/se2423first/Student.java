@@ -15,6 +15,7 @@ public class Student {
    public static int stVar=6;
    private int barcode;
    private int gpa;
+   int age;
    
    public int getBarcode(){
        return this.barcode;
@@ -26,7 +27,7 @@ public class Student {
    
    
    
-   public static int sum(int a, int b){
+   public int sum(int a, int b){
        return a+b;
    }
    
