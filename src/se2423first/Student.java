@@ -16,6 +16,7 @@ public class Student {
    private int barcode;
    private int gpa;
    int age;
+   int temp;
    
    public int getBarcode(){
        return this.barcode;
